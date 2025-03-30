@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000426] (meu_robo) JobQueued: {'identifier': 'meu_robo', 'dependencies': OrderedDict()}
+[0.000518] (meu_robo) JobStarted: {'identifier': 'meu_robo'}
+[0.099678] (-) TimerEvent: {}
+[0.200286] (-) TimerEvent: {}
+[0.300898] (-) TimerEvent: {}
+[0.401458] (-) TimerEvent: {}
+[0.502037] (-) TimerEvent: {}
+[0.602624] (-) TimerEvent: {}
+[0.703306] (-) TimerEvent: {}
+[0.803895] (-) TimerEvent: {}
+[0.904418] (-) TimerEvent: {}
+[1.004970] (-) TimerEvent: {}
+[1.105463] (-) TimerEvent: {}
+[1.206012] (-) TimerEvent: {}
+[1.306556] (-) TimerEvent: {}
+[1.407078] (-) TimerEvent: {}
+[1.507655] (-) TimerEvent: {}
+[1.559272] (meu_robo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/gustavo/ros2_trabalho/src/build/meu_robo/build', '--no-deps', 'symlink_data'], 'cwd': '/home/gustavo/ros2_trabalho/src/build/meu_robo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'pt_BR:pt:en', 'USER': 'gustavo', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/gustavo', 'OLDPWD': '/home/gustavo/ros2_trabalho/src/meu_robo/meu_robo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1716', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/gustavo/ros2_trabalho/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'gustavo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gustavo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/gustavo:@/tmp/.ICE-unix/1668,unix/gustavo:/tmp/.ICE-unix/1668', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/44fbc566_1907_4f1b_9de3_4d30c640cd38', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AS3X32', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.315', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gustavo/ros2_trabalho/install/meu_robo:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gustavo/ros2_trabalho/src/build/meu_robo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gustavo/ros2_trabalho/src/build/meu_robo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gustavo/ros2_trabalho/src/install/meu_robo/lib/python3.10/site-packages:/home/gustavo/ros2_trabalho/build/meu_robo:/home/gustavo/ros2_trabalho/install/meu_robo/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.607781] (-) TimerEvent: {}
+[1.708183] (-) TimerEvent: {}
+[1.808650] (-) TimerEvent: {}
+[1.909112] (-) TimerEvent: {}
+[2.009599] (-) TimerEvent: {}
+[2.110342] (-) TimerEvent: {}
+[2.196947] (meu_robo) StdoutLine: {'line': b'running develop\n'}
+[2.210476] (-) TimerEvent: {}
+[2.310903] (-) TimerEvent: {}
+[2.411367] (-) TimerEvent: {}
+[2.511849] (-) TimerEvent: {}
+[2.577469] (meu_robo) StdoutLine: {'line': b'running egg_info\n'}
+[2.577808] (meu_robo) StdoutLine: {'line': b'creating meu_robo.egg-info\n'}
+[2.578138] (meu_robo) StdoutLine: {'line': b'writing meu_robo.egg-info/PKG-INFO\n'}
+[2.578422] (meu_robo) StdoutLine: {'line': b'writing dependency_links to meu_robo.egg-info/dependency_links.txt\n'}
+[2.578802] (meu_robo) StdoutLine: {'line': b'writing entry points to meu_robo.egg-info/entry_points.txt\n'}
+[2.579153] (meu_robo) StdoutLine: {'line': b'writing requirements to meu_robo.egg-info/requires.txt\n'}
+[2.579321] (meu_robo) StdoutLine: {'line': b'writing top-level names to meu_robo.egg-info/top_level.txt\n'}
+[2.579684] (meu_robo) StdoutLine: {'line': b"writing manifest file 'meu_robo.egg-info/SOURCES.txt'\n"}
+[2.583134] (meu_robo) StdoutLine: {'line': b"reading manifest file 'meu_robo.egg-info/SOURCES.txt'\n"}
+[2.584725] (meu_robo) StdoutLine: {'line': b"writing manifest file 'meu_robo.egg-info/SOURCES.txt'\n"}
+[2.587321] (meu_robo) StdoutLine: {'line': b'running build_ext\n'}
+[2.587722] (meu_robo) StdoutLine: {'line': b'Creating /home/gustavo/ros2_trabalho/src/install/meu_robo/lib/python3.10/site-packages/meu-robo.egg-link (link to .)\n'}
+[2.589145] (meu_robo) StdoutLine: {'line': b'Installing controle_tartaruga script to /home/gustavo/ros2_trabalho/src/install/meu_robo/lib/meu_robo\n'}
+[2.592799] (meu_robo) StdoutLine: {'line': b'Installing draw_circle script to /home/gustavo/ros2_trabalho/src/install/meu_robo/lib/meu_robo\n'}
+[2.593082] (meu_robo) StdoutLine: {'line': b'Installing pose_subscriber script to /home/gustavo/ros2_trabalho/src/install/meu_robo/lib/meu_robo\n'}
+[2.593264] (meu_robo) StdoutLine: {'line': b'Installing test_node script to /home/gustavo/ros2_trabalho/src/install/meu_robo/lib/meu_robo\n'}
+[2.593429] (meu_robo) StdoutLine: {'line': b'\n'}
+[2.593632] (meu_robo) StdoutLine: {'line': b'Installed /home/gustavo/ros2_trabalho/src/build/meu_robo\n'}
+[2.593808] (meu_robo) StdoutLine: {'line': b'running symlink_data\n'}
+[2.593971] (meu_robo) StdoutLine: {'line': b'creating /home/gustavo/ros2_trabalho/src/install/meu_robo/share/ament_index\n'}
+[2.594133] (meu_robo) StdoutLine: {'line': b'creating /home/gustavo/ros2_trabalho/src/install/meu_robo/share/ament_index/resource_index\n'}
+[2.594306] (meu_robo) StdoutLine: {'line': b'creating /home/gustavo/ros2_trabalho/src/install/meu_robo/share/ament_index/resource_index/packages\n'}
+[2.594457] (meu_robo) StdoutLine: {'line': b'symbolically linking /home/gustavo/ros2_trabalho/src/build/meu_robo/resource/meu_robo -> /home/gustavo/ros2_trabalho/src/install/meu_robo/share/ament_index/resource_index/packages\n'}
+[2.594632] (meu_robo) StdoutLine: {'line': b'symbolically linking /home/gustavo/ros2_trabalho/src/build/meu_robo/package.xml -> /home/gustavo/ros2_trabalho/src/install/meu_robo/share/meu_robo\n'}
+[2.611983] (-) TimerEvent: {}
+[2.663314] (meu_robo) CommandEnded: {'returncode': 0}
+[2.686012] (meu_robo) JobEnded: {'identifier': 'meu_robo', 'rc': 0}
+[2.687408] (-) EventReactorShutdown: {}

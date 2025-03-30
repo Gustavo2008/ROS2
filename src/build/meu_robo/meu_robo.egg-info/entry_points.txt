@@ -1,0 +1,6 @@
+[console_scripts]
+controle_tartaruga = meu_robo.controle_tartarura:main
+draw_circle = meu_robo.draw_circle:main
+pose_subscriber = meu_robo.pose_subscriber:main
+test_node = meu_robo.meu_primeiro_no:main
+

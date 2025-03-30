@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+meu_robo/__init__.py
+meu_robo/controle_tartaruga.py
+meu_robo/draw_circle.py
+meu_robo/meu_primeiro_no.py
+meu_robo/pose_subscriber.py
+meu_robo.egg-info/PKG-INFO
+meu_robo.egg-info/SOURCES.txt
+meu_robo.egg-info/dependency_links.txt
+meu_robo.egg-info/entry_points.txt
+meu_robo.egg-info/requires.txt
+meu_robo.egg-info/top_level.txt
+meu_robo.egg-info/zip-safe
+resource/meu_robo
